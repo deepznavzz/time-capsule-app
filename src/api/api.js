@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://your-backend.onrender.com/api' });
+const API = axios.create({ baseURL: 'https://time-capsule-backend.onrender.com/api' });
 
 // Add token to requests if available
 API.interceptors.request.use((req) => {
